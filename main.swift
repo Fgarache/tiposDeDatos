@@ -44,7 +44,14 @@ var serverResponseCode : Int? = 404
 serverResponseCode = nil
 var surveyAnswer : String?
 
-surveyAnswer = "43"
+//surveyAnswer = "43"
 
 print(" ")
-print(surveyAnswer)
+
+if surveyAnswer != nil {
+  print("la edad no  es nula")
+  
+}else {
+  "la edad es nula"
+}
+
