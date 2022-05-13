@@ -36,3 +36,15 @@ print("mensaje: \(http404.1)")
 let http200Status = (statusCode: 200, description: "OK")
 print("El código del estado es: \(http200Status.statusCode)")
 print("desciption : \(http200Status.description)")
+
+
+let possibleAge = "31"
+let convertedAge = Int (possibleAge) //Int?
+var serverResponseCode : Int? = 404
+serverResponseCode = nil
+var surveyAnswer : String?
+
+surveyAnswer = "43"
+
+print(" ")
+print(surveyAnswer)
